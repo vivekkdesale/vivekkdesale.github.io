@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Vivek Desale</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c594e807c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1-removebg-preview.png" , class="logo">
+                <ul id="sidemenu"> 
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Data Analyst</p>
+                <h1>Hi, I am <span>Vivek</span><br>Desale from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------ About ------------------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/cv foto 2 (1).png" alt="">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Proficient in Data Analysis with Python, Machine Learning and Artificial Intelligence
+                        with Image Processing. Passionate about implementing and launching new projects.
+                        Ability to translate business requirements into insightful data. I have around 2 years
+                        of experience in Data Science with Python & GUI such as Tkinter and Flask based applications.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming</span><br>Python, R</li>
+                            <li><span>Frameworks</span><br>Numpy, Pandas, Matplotlib, NLTK,
+                                Scikit-Learn, Keras, OpenCV, Flask</li>
+                            <li><span>Front End / GUI</span><br>HTML, CSS, Tkinter</li>
+                            <li><span>Database</span><br>MySQL</li>
+                            <li><span>Version Control</span><br>GIT, GitHub</li>
+                            <li><span>Softwares</span><br>Jupyter Notebook, Google Colab,
+                                PyCharm, Visual Studio Code, MySQL Workbench 8.0</li>
+                            <li><span>Deployment</span><br>Microsoft Azure, Docker</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Sept.2021-Current</span><br>Data Analyst at Quaint Technomation</li>
+                            <li><span>May.2017- Aug.2021</span><br>Sr.Engineer (Industrial Electronics) at Quaint
+                                Technomation</li>
+                            <li><span>Sept.2016-Apr.2017</span><br>PLC Programmer at VAST Systems</li>
+                            <li><span>Nov.2014-Aug.2016</span><br>Application Engineer at Teknocrats Control Systems -
+                                Marketing Division</li>
+                            <li><span>Nov.2013-Sept.2014</span><br>Research Assistant (Intern) at Semiconductor Physics
+                                Dept, TU Chemnitz</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Master of Science (MS)</span><br>Faculty of Electrical Engineering and Information
+                                Technology <br>Technische Universität Chemnitz
+                                Chemnitz, Saxony, Germany<br>(2012 - 2014)</li>
+                            <li><span>Bachelors of Engineering</span><br>BKC MET's IOE Nashik, (Pune University)
+                                Nashik, Maharashtra State, India <br> Electronics Engineering (2008-2011)</li>
+                            <li><span>Diploma in Engineering</span><br>K.K.Wagh Polytechnic Nashik
+                                (M.S.B.T.E.), Maharashtra State, India <br> Industrial Electronics (2004-2007)</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="certifications">
+                        <ul>
+                            <li><span>Master of Data Science using Python</span><br>IT Vedant Mumbai</li>
+                            <li><span>Python for Data Science</span><br>IBM Skill Developer Network</li>
+                            <li><span>Microsoft Certified System Administrator</span><br>Microsoft</li>
+                            <li><span>German Language (A1 &A2)</span><br>Goethe-Institut / Max Mueller Bhavan Mumbai
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------------ Services ------------------------------ -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+
+                <!-- Add your Project Here -->
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                        velit
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt
+                        in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <!-- Add your Project Here -->
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                        velit
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt
+                        in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <!-- Add your Project Here -->
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                        velit
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt
+                        in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <!-- Add your Project Here -->
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                        velit
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt
+                        in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------------------------------ Portfolio ------------------------------ -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <!-- Add your work here -->
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris
+                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                            velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            sunt
+                            in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <!-- Add your work here -->
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris
+                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                            velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            sunt
+                            in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <!-- Add your work here -->
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris
+                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                            velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            sunt
+                            in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- ------------------------------ Contact ------------------------------ -->
+
+    <div id="contact">
+        <div class="container">
+
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> vivekkdesale@gmail.com</p>
+                    <p> <i class="fa-solid fa-mobile-retro"></i> +91 7038594637</p>
+
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/vivek-desale-84a88473/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/vivekkdesale"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://twitter.com/vivekkdesale"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/vivekkdesale"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/vivekkdesale/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://discord.com/users/vivekkdesale#2719"><i class="fa-brands fa-discord"></i></i></a>
+                    </div>
+
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="E-mail" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright"> <p>© Made by Vivek Desale</p></div>
+    </div>
+
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+
+</body>
+
+</html>
